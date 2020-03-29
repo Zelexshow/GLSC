@@ -2,6 +2,7 @@ package com.zelex.gmall.pms.service;
 
 import com.zelex.gmall.pms.entity.ProductAttribute;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.zelex.gmall.vo.PageInfoVo;
 
 /**
  * <p>
@@ -13,4 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface ProductAttributeService extends IService<ProductAttribute> {
 
+    PageInfoVo getCategoryAttributes(Long cid, Integer type, Integer pageSize, Integer pageNum);
 }

@@ -2,6 +2,7 @@ package com.zelex.gmall.pms.service;
 
 import com.zelex.gmall.pms.entity.Brand;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.zelex.gmall.vo.PageInfoVo;
 
 /**
  * <p>
@@ -13,4 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface BrandService extends IService<Brand> {
 
+    PageInfoVo brandPageInfo(String keyword, Integer pageNum, Integer pageSize);
 }

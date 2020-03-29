@@ -34,11 +34,11 @@ public class ProductAttributeCategory implements Serializable {
     @TableField("name")
     private String name;
 
-    @ApiModelProperty(value = "属性数量")
+    @ApiModelProperty(value = "属性数量")//指的是商品的销售属性
     @TableField("attribute_count")
     private Integer attributeCount;
 
-    @ApiModelProperty(value = "参数数量")
+    @ApiModelProperty(value = "参数数量")//指的是商品的基本参数
     @TableField("param_count")
     private Integer paramCount;
 
