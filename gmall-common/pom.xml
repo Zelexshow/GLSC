@@ -40,7 +40,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.56</version>
+            <version>1.2.83</version>
         </dependency>
 <!--防止validator报错-->
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
